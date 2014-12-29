@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nav_menu_items">
+        <item>Inicio</item>
+        <item>Restaurantes</item>
+        <item>Pizzarias</item>
+        <item>Farmácias</item>
+        <item>Lojas</item>
+        <item>Serviços</item>
+        <item>Academias</item>
+        <item>Bares</item>
+        <item>Escolas</item>
+        <item>Configurações</item>
+        <item>Ajuda</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Navigation -->
+    <string name="header">Usuário</string>
+    <string name="app_name">Guia Jarinu</string>
+    <string name="clear"></string>
+    <string name="add">Adicionar</string>
+    <string name="search">Pesquisar</string>
+    <string name="update">atualizar</string>
+    <string name="drawer_open">Abrir drawer navigation</string>
+    <string name="drawer_close">Navigation drawer Fechar</string>
+    <string name="titulo_user">Cledson Alves</string>
+    <string name="subtitulo_user">clsddd@hotmail.com</string>
+    
+    <string name="tab_1">Home</string>
+    <string name="tab_2">Rss News</string>
+    <string name="tab_3">Pizzarias</string>
+    <string name="tab_4">Lojas</string>
+    <string name="tab_5">Farmacias</string>
+    <string name="tab_6">Construção</string>
+    <string name="tab_7">Adegas - Bares</string>
+     <string name="tab_8">Restaurantes</string>
+      <string name="tab_9">Superm. e Alimentos</string>
+     <string name="tab_10">Imobiliárias</string>
+     <string name="tab_11">Disk Facíl</string>
+    <string name="tab_12">Academias</string>
+     <string name="tab_13">Seguros</string>
+    <string name="tab_14">Serviços</string>
+    <string name="tab_15">Escolas - Cursos</string>
+    <string name="tab_16">Faculdades</string>
+    <string name="tab_17">Telefones úteis</string>
+     <string name="tab_18">Beleza e Estética</string>
+    <string name="tab_19">Deixe sua opinião</string>
+    
+    <string name="fragment_my_apps">Restaurantes</string>
+    <string name="fragment_shop_apps">Pizzarias</string>
+    <string name="fragment_tab_one">Restaurantes</string>
+    <string name="fragment_tab_two">Pizzarias</string>
+    <string name="fragment_tab_three">Farmacias</string>
+    
+    <string name="um">Catroque Supermercado</string>
+    <string name="dois">2</string>
+    <string name="tres">3</string>
+
+</resources>

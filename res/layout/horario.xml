@@ -1,0 +1,21 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <ListView
+            android:id="@+id/listViewHorarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        </ListView>
+    </LinearLayout>
+
+</ScrollView>

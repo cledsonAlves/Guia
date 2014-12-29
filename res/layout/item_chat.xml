@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+   android:layout_width="fill_parent"  
+   android:layout_height="fill_parent"  
+   android:orientation="vertical" >  
+   <ViewFlipper  
+     android:id="@+id/viewFlipper"  
+     android:layout_width="fill_parent" 
+      
+     android:layout_height="0dp"  
+     android:layout_weight="1" >  
+
+     <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="#AAff0000"
+         android:gravity="center"
+         android:tag="1"
+         android:text="um"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:textColor="#fff"
+         android:textSize="150sp" />
+  
+     <TextView  
+       android:layout_width="fill_parent"  
+       android:layout_height="wrap_content"  
+       android:background="#AA00ff00"  
+       android:gravity="center"  
+       android:tag="2"  
+       android:text="@string/dois"  
+       android:textAppearance="?android:attr/textAppearanceLarge"  
+       android:textColor="#000"  
+       android:textSize="150sp" />  
+     <TextView  
+       android:layout_width="fill_parent"  
+       android:layout_height="wrap_content"  
+       android:background="#AA0000ff"  
+       android:gravity="center"  
+       android:tag="3"  
+       android:text="@string/tres"  
+       android:textAppearance="?android:attr/textAppearanceLarge"  
+       android:textColor="#fff"  
+       android:textSize="150sp" />  
+   </ViewFlipper>  
+   <LinearLayout  
+     android:layout_width="fill_parent"  
+     android:layout_height="wrap_content"  
+     android:orientation="horizontal" >  
+     <ImageButton  
+       android:id="@+id/btnVoltar"  
+       android:layout_width="0dp"  
+       android:layout_height="wrap_content"  
+       android:layout_weight="1"  
+       android:contentDescription="@null"  
+       android:onClick="voltarClick"  
+        />  
+     <ToggleButton  
+       android:id="@+id/tbSlider"  
+       android:layout_width="0dp"  
+       android:layout_height="match_parent"  
+       android:layout_weight="1"  
+       android:onClick="sliderClick"  
+       android:textOff="Slider Off"  
+       android:textOn="Slider On" />  
+     <ImageButton  
+       android:id="@+id/btnPassar"  
+       android:layout_width="0dp"  
+       android:layout_height="wrap_content"  
+       android:layout_weight="1"  
+       android:contentDescription="@null"  
+       android:onClick="passarClick"  
+     />  
+   </LinearLayout>  
+</LinearLayout>  

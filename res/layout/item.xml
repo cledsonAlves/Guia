@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="2dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textViewDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewLogo"
+        android:text="Supermercado Catroque"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewFone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDestino"
+        android:layout_below="@+id/textViewDestino"
+        android:text="(11) 4016-3516"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green_google_play" />
+
+    <TextView
+        android:id="@+id/textViewAnuncio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textViewFone"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="17dp"
+        android:text="Veja o anuncio"
+        android:textColor="@color/orange_dark" />
+
+    <TextView
+        android:id="@+id/textViewEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewFone"
+        android:layout_below="@+id/textViewFone"
+        android:text="Rua Indepedência 125, Centro Jarinu - SP"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/blue_dark" />
+
+</RelativeLayout>

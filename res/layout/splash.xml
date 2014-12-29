@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ab_background_textured_estilo"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.86" >
+
+        <TextView
+            android:id="@+id/textViewTel1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:text="Iniciando Aplicativo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/orange_dark" />
+
+        <TextView
+            android:id="@+id/textViewNet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTel1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:id="@+id/textViewNet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewNet"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageViewAnuncio"
+            android:layout_marginTop="26dp" />
+
+        <TextView
+            android:id="@+id/textViewDta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewAnuncio"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="www.desagil.com.br"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageViewAnuncio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textViewNet2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/logo_desagil" />
+
+    </RelativeLayout>
+
+</LinearLayout>
