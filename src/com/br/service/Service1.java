@@ -32,20 +32,20 @@ public class Service1 extends Service {
 
 		public void run() {
 			
-			// verifica se tem conex„o com a net
+			// verifica se tem conex√£o com a net
 			boolean conexao = Logica.verificaConexao(getApplicationContext());
 			if (conexao){
-				AtualizaAnuncio a = new AtualizaAnuncio();
+			/*	AtualizaAnuncio a = new AtualizaAnuncio();
 				ArrayList<Anuncio> lista = a.getAnuncios();
 				ManipulaBanco mb = new ManipulaBanco(getApplicationContext());
                 if (lista != null && lista.size() > 0){
                 	for (int i = 0; i < lista.size(); i++) {
                 		boolean cad = mb.cadastraAnuncio(lista.get(i));
                 		if (cad){
-                			Log.i("ServiÁo", "cadastro efetuado!! ");	
+                			Log.i("Servi√ßo", "cadastro efetuado!! ");	
                 		}else{
-                			Log.i("ServiÁo", "cadastro n„o efetuado!! ");
-                		}
+                			Log.i("Servi√ßo", "cadastro n√£o efetuado!! ");
+                		}*/
                 		
 						
 					}
