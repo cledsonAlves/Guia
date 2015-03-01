@@ -77,16 +77,16 @@ public class Splash extends Activity {
 	
 
 		
-		// verifica se tem conexão com a net
+		// verifica se tem conexÃ£o com a net
 		boolean conexao = Logica.verificaConexao(this);
 		if (conexao){
-			txtNet.setText("Você esta conectado a internet.");
+			txtNet.setText("VocÃª esta conectado a internet.");
 			txtNet.setAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_left_in));
 			txtNet2.setAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_left_in));
 			
 			txtNet2.setText("Oba, vou atualizar as noticias :)");
 
-		   // dialog = ProgressDialog.show(this,"Noticias","Atualizando notícias, por favor aguarde...",false,true);
+		   // dialog = ProgressDialog.show(this,"Noticias","Atualizando notÃ­cias, por favor aguarde...",false,true);
 			Thread t=new Thread(new Runnable() {
 				 
 		        @Override
@@ -122,7 +122,7 @@ public class Splash extends Activity {
 						String arq = readString(in);**/
 						
 						// atualiza os rss
-						updateNoticias();
+					     //	updateNoticias();
 						
 						
 						   handler.postDelayed(new Runnable() {
@@ -148,7 +148,7 @@ public class Splash extends Activity {
 				            	
 				                }
 				            },1000);
-						   //encerra a conexão
+						   //encerra a conexÃ£o
 						//   con.disconnect();
 						
 					} catch (MalformedURLException e) {
@@ -167,14 +167,14 @@ public class Splash extends Activity {
 
 		        }
 		    });
-		    t.start();
+		  //  t.start();
 
 			
 		}else {
 			txtNet.setAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_left_in));
 			txtNet2.setAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_left_in));
 			
-			txtNet.setText("Você esta sem internet.");
+			txtNet.setText("VocÃª esta sem internet.");
 			txtNet2.setText("Vamos iniciar no modo off-line.");
 		}
 		
@@ -224,7 +224,7 @@ public class Splash extends Activity {
 		
 		//String texto = new String(bytes,"ISO-8859-1");
 	
-		// após a leitura ,  monta a lista de objetos clientes 
+		// apÃ³s a leitura ,  monta a lista de objetos clientes 
 			//		ArrayList<Comentario> lista = new Gson().fromJson(texto, new TypeToken<ArrayList<Comentario>>() {}.getType());
 
 			
@@ -240,7 +240,7 @@ public class Splash extends Activity {
 				
 	
 		//  exclui e cadastra as novas noticias ...
-		ManipulaBanco mb = new ManipulaBanco(this);
+	/*	ManipulaBanco mb = new ManipulaBanco(this);
 		if (mb.deletaAnuncios()){
 			for (int i = 0; i < list.size(); i++) {
 				
@@ -252,7 +252,7 @@ public class Splash extends Activity {
 				c.setVisitas(""+i);
 	         mb.cadastraNoticia(c, i);
 			}
-		}
+		}*/
 	
 	
 		
